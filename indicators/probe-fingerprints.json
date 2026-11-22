@@ -1,0 +1,1630 @@
+{
+  "cutoff_utc": "2026-11-21T16:10:00+00:00",
+  "frozen_levin_template": {
+    "sha256": "66e6e95d50f4bc0ff0f58d2e37d660559c2fb6a26742a50de077e2bb555898cd",
+    "listener_connections": 416,
+    "listener_sources": 194,
+    "listener_all_in_palo_alto_ranges": true,
+    "packet_streams": 412,
+    "packet_sources": 190,
+    "packet_all_in_palo_alto_ranges": true,
+    "complete_handshakes": 412
+  },
+  "lzr_mqtt_template": {
+    "sha256": "98e27af48c44b550c3742ac2eb005544cde0a7e3b5b03fc2e1e73f50e34af279",
+    "flows": 2069,
+    "sources": 36,
+    "sensors": 23,
+    "ports": {
+      "18080": 756,
+      "18089": 676,
+      "18081": 637
+    },
+    "network_associations": {
+      "AKAMAI-LINODE-AP - Akamai Connected Cloud, SG": 1500,
+      "unavailable in listener export": 569
+    }
+  },
+  "levin_listener_groups": [
+    {
+      "sha256": "66e6e95d50f4bc0ff0f58d2e37d660559c2fb6a26742a50de077e2bb555898cd",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 416,
+      "sources": 194,
+      "sensors": 26,
+      "networks": {
+        "GOOGLE-CLOUD-PLATFORM - Google LLC, US": 416
+      },
+      "local_time_field_utc": "2021-01-31T11:24:20+00:00"
+    },
+    {
+      "sha256": "f982babed82f89d1be72e2dbfec994c42b55f45d37ede6ea9c84786c38eb1d5c",
+      "command": 1003,
+      "declared_body_bytes": 51,
+      "connections": 385,
+      "sources": 227,
+      "sensors": 26,
+      "networks": {
+        "CENSYS-ARIN-02 - Censys, Inc., US": 96,
+        "CENSYS-ARIN-01 - Censys, Inc., US": 285,
+        "unavailable": 4
+      }
+    },
+    {
+      "sha256": "0919330898ff50d5f02d0b53801991228d4e7f7588864f46c8d1a814485c3717",
+      "command": 1003,
+      "declared_body_bytes": 10,
+      "connections": 365,
+      "sources": 310,
+      "sensors": 26,
+      "networks": {
+        "BANDWIDTH-AS - Hydra Communications Ltd, GB": 24,
+        "DRIFTNET - Driftnet Ltd, GB": 337,
+        "unavailable": 4
+      }
+    },
+    {
+      "sha256": "c1da12722a222b78e1e9005b0482402693503db47319454ed4fa516d1fb61449",
+      "command": 1003,
+      "declared_body_bytes": 0,
+      "connections": 67,
+      "sources": 65,
+      "sensors": 25,
+      "networks": {
+        "ALIBABA-CN-NET - Alibaba (US) Technology Co., Ltd., CN": 67
+      }
+    },
+    {
+      "sha256": "03f742c8aad51fd42e1043a47c819eefa4c7ed34238b2ec020e6018d9f7d0ccc",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-09T07:10:45+00:00"
+    },
+    {
+      "sha256": "0607e25304d91f135239379f0270f10204f260388051ee69895aceee76c4a167",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-18T10:07:32+00:00"
+    },
+    {
+      "sha256": "0701b7f200003d13e6f2dd514191c71c6d924a1d4ee8790c3b138cf11045f54a",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-04T17:34:38+00:00"
+    },
+    {
+      "sha256": "08be705bb808f901cd68b2df8c864d114de423874e32ce686b51d159f8abd97d",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "unavailable": 1
+      },
+      "local_time_field_utc": "2026-11-08T09:24:10+00:00"
+    },
+    {
+      "sha256": "0cb56bf85e23322406be3136b555ca0debee3e7425f4065d97e6f2ef4e33ab48",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-02T09:06:53+00:00"
+    },
+    {
+      "sha256": "0ec2254e67800cec018d251f4e17c35b3a54ecb5706cd605dfd02a5bb54ac97a",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-15T04:17:51+00:00"
+    },
+    {
+      "sha256": "0f5adf7f4a5150f592a2009bdebc2d7b63bc7ca588bcbabfc1179f18140cb06d",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-09T09:14:25+00:00"
+    },
+    {
+      "sha256": "10f9f5c4715a0bef07f423832d857a9ec9c98a5a6890543fe8d32526643c59f3",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-14T09:41:46+00:00"
+    },
+    {
+      "sha256": "12b9dfed4a512e3494c54a38a87d9de9452e75496afd7450f7ce82ce2bddcbb7",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-16T23:17:33+00:00"
+    },
+    {
+      "sha256": "18e1743f33b124d1567163efbe2bd837ff805e2a5bb6159b51980cb6a02dfd3c",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-04T09:19:21+00:00"
+    },
+    {
+      "sha256": "1b7ff8e96af15bac5568b7f9f49509d4588e746041c81549c6e1ba44c0f32b35",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-15T09:50:00+00:00"
+    },
+    {
+      "sha256": "1b9c6a9219014feddb3d8f93a9f133df2ce9e41fb0ab9853cf6575a6430dfe45",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-20T09:53:16+00:00"
+    },
+    {
+      "sha256": "1d137571a03a98500e97cf829d8e191e89f2de975485bbff91a592eb74cef0f8",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "unavailable": 1
+      },
+      "local_time_field_utc": "2026-11-18T10:00:46+00:00"
+    },
+    {
+      "sha256": "1e715fbcdd218a2470216a896cbef2289e3b7649e3329e68806bdc4acc1c84be",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-10T09:19:29+00:00"
+    },
+    {
+      "sha256": "1f44e37ce61933ee187f44c834b27deabd7a739b269d6839545a6c1ba9da7b16",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-19T09:46:28+00:00"
+    },
+    {
+      "sha256": "20482baefecaf3acf231baaa8e31659dc8bc9e78a345c09ece0b75fa77b191f2",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-17T09:39:16+00:00"
+    },
+    {
+      "sha256": "20c457252f5ed515d0bfc2de6b9129be57ac301cca1696d4ab1b59e6666a5fa4",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-13T09:36:38+00:00"
+    },
+    {
+      "sha256": "269e0ce32c751202e0565a2fe15d5410f7e00bde3acc0ef218c56b055bb0afaa",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-10-31T09:28:17+00:00"
+    },
+    {
+      "sha256": "2a1f44b8e268b78bc681c838c6ffe6a514230653a214f4b3e0bf7b1f43fb4beb",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-01T09:23:13+00:00"
+    },
+    {
+      "sha256": "2f9394a50d9b031724014fbdbe9443896037471e8e6fcc82942ec7ac40a7b62b",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "unavailable": 1
+      },
+      "local_time_field_utc": "2026-11-13T09:01:03+00:00"
+    },
+    {
+      "sha256": "336be4b00bd71988228261a0847254bb4c0a26e82582f399b922d134c946cb95",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-02T09:05:50+00:00"
+    },
+    {
+      "sha256": "33711ff004774e217bcb6c9f48ad694cc8f241ba623b45e1b28bf9ed9f6ec1a0",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-14T09:45:43+00:00"
+    },
+    {
+      "sha256": "33c8aefc87917f978618ec58f6e13769d09c04fe908e287bf8dcaf004c7a0cc1",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-10T09:28:37+00:00"
+    },
+    {
+      "sha256": "34613e356a49b021a5184417a86486c295102e09069a33bab0657f5ad0b59966",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-08T09:31:05+00:00"
+    },
+    {
+      "sha256": "35365710be5fd4076cbfe75edf057d61b21beb7e6f19323c8230a50d2bee9d4d",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-09T09:20:29+00:00"
+    },
+    {
+      "sha256": "36b79e17eea5676d604426530d62fc1c764eaf0817dcdc831d6e080839df3223",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "unavailable": 1
+      },
+      "local_time_field_utc": "2026-11-07T04:34:52+00:00"
+    },
+    {
+      "sha256": "386f9f0d680143e420922176729b1a40105ad4dea1ba6c9fabc5b1a621a52801",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-11T09:35:46+00:00"
+    },
+    {
+      "sha256": "3a2e6a78d59e6d86034f3e9259e59a04f860a990431830197595f6a2824c2652",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-19T08:01:42+00:00"
+    },
+    {
+      "sha256": "3f2af3b3f7bee177b049e789f17ed13cf9cc7e2465d50dc1afbd3a8ce76a5208",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-18T09:59:53+00:00"
+    },
+    {
+      "sha256": "4010f23f363cbcadfb0a5ca2afbe6c5615df1ced3f30da1bbdcb0b47fa15f3b8",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-11T13:27:27+00:00"
+    },
+    {
+      "sha256": "45d0bf24749b2d8016cd8015419d061f5b1e7af079edc282b3078dbe0f237e4a",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-01T14:51:03+00:00"
+    },
+    {
+      "sha256": "48fa394cbfcfda9ff2481d94c7e7b86d7e362f2fbc31f788e0bec89a90fc7b64",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-20T08:33:19+00:00"
+    },
+    {
+      "sha256": "49af48398d19dea1048565275cadfdda6ce5d172aeb0b626768b6d3ccff0c33e",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-10-31T09:29:36+00:00"
+    },
+    {
+      "sha256": "4ca38463de755b42a07dbdcf323ecd1b5760deb0af5c66a539a19344effb5701",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-04T05:10:16+00:00"
+    },
+    {
+      "sha256": "4d312fd6e3a2411e46a429477cb36667100009e635b3f0a5f59e136714640ecc",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-10T09:24:01+00:00"
+    },
+    {
+      "sha256": "4e2bd73974d56ffafc30142e7e4c3475c111e69f4972fc91bfc8e62e983495da",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-08T09:29:49+00:00"
+    },
+    {
+      "sha256": "4e711c794f3fd3b5a2bdd1a4ea7eac89a4088bc379d85c43b3121b280ac644ec",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-13T22:59:25+00:00"
+    },
+    {
+      "sha256": "5001b8b489b94113225531fc0e53eb4e7b2d528e135de0ae034cbd83d4e1721a",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-21T09:56:03+00:00"
+    },
+    {
+      "sha256": "51f3673e4a6f1316c935cb1c94abc063733a484afc73dc685b13b67a7fd43eed",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-10T15:25:30+00:00"
+    },
+    {
+      "sha256": "539f1aa39e7ef2ed44d22f8d70df901d6f27a78c624ff4928e581bc814564c25",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-08T10:29:41+00:00"
+    },
+    {
+      "sha256": "5ad50b58b463fc936a05071a93d7ec2fa693cd967d3cc17e4558eabb9b859b03",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-04T09:19:23+00:00"
+    },
+    {
+      "sha256": "5b254dd130fd7bab903b1c3b98ce15337911934147cd2d5992bcffef6a8dab3e",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-05T03:05:58+00:00"
+    },
+    {
+      "sha256": "5cae618bf0a906d785c27a3b2a4e95a96bf18b804fe7ca606a0c0c36d768947d",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-02T13:28:49+00:00"
+    },
+    {
+      "sha256": "63ba4568f554fd0652bae7dae59fad2b2cecad90bcb5e396663baf70bd415461",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-13T09:31:55+00:00"
+    },
+    {
+      "sha256": "68705c135f1c431284d91ff729079ae9a2bdc77a52ffb63a601d3f00f49adbfd",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-03T09:08:19+00:00"
+    },
+    {
+      "sha256": "689fe78fa04f31fbc1d07c7ba796c34f5268ce9ade8245cd31bc371c16e86001",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "unavailable": 1
+      },
+      "local_time_field_utc": "2026-11-07T09:39:39+00:00"
+    },
+    {
+      "sha256": "6c8047d60dc41dd38579d724ad6bd503433823e609aaa88c1c79a2942196bc84",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-04T09:21:32+00:00"
+    },
+    {
+      "sha256": "6e2573d676633a1eb499f8c25ca47579310bd93e7c953c5a76032dea7a095fd2",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-16T09:04:23+00:00"
+    },
+    {
+      "sha256": "6e27d8c96e64e982a30ff2ac1f530b6a3906e039ece0a5c68f778859d511b903",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-16T09:27:55+00:00"
+    },
+    {
+      "sha256": "6f3aecd3e8ec9a83425bb8b398230fd839e0891b1f7ca5caa1bcbd4a3684c4ad",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-21T09:50:58+00:00"
+    },
+    {
+      "sha256": "708ce58b50d8cbe54751488e9f7e8d2e9d248c7e3a2dbc5b5be10b329c6ff117",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-02T18:59:11+00:00"
+    },
+    {
+      "sha256": "75fe65ecc4f96441625265f7d79979c1fb2a564c732abe5f6e40c75348225537",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-11T09:35:23+00:00"
+    },
+    {
+      "sha256": "79edde3dc45b53cd967d0719ecc3b671be1d5a582464d5b0590d3975720943f7",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-16T09:35:59+00:00"
+    },
+    {
+      "sha256": "7e913701208bd3d40881551277035ea56d7e3634219aba0ab1112b9f3b7a815c",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-16T09:32:52+00:00"
+    },
+    {
+      "sha256": "801b64548e2faea398ab5b66238e279571ea899d7b179c8bf5f45878542a6dd0",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-12T09:31:32+00:00"
+    },
+    {
+      "sha256": "8383fc5ee172bee0f75f093313852a33a6ac1ca5f0e0f109c324c149d9734955",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "unavailable": 1
+      },
+      "local_time_field_utc": "2026-11-15T09:43:58+00:00"
+    },
+    {
+      "sha256": "88a2e05e2800ac94275c646fa3f251ba737ba8e5ef8b7aee19fc354eba275068",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-11T09:35:40+00:00"
+    },
+    {
+      "sha256": "8d8ef864b4844435731adff748792557fd6db6981b06c6a4f984ebcff34ad2c4",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-01T06:40:33+00:00"
+    },
+    {
+      "sha256": "8e2e92c5415fa5ab33152ed801b189536aad7fdaeea624a9bc287c120af879c4",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-21T09:56:13+00:00"
+    },
+    {
+      "sha256": "8eb688c53e829cb30b828385c6e8bc91080b47b188b30a626f4b6937892064b4",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-12T09:30:01+00:00"
+    },
+    {
+      "sha256": "8fdca409513be452ed87fdb05a4d0b55ac8fb63201243ca0b20efcedf2969bc8",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-09T07:39:49+00:00"
+    },
+    {
+      "sha256": "9135a4609e70e752e2db8f6a9ce9ec58c81d0c2f9b0215d69b9b4b91ec69da3a",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-02T04:25:57+00:00"
+    },
+    {
+      "sha256": "926931980d5f2ffd7d72f801a64ebcc2f93d7a55574f667432d031d776ba5b40",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-16T16:11:07+00:00"
+    },
+    {
+      "sha256": "92cf05143cf7f14235909f43947bdcde9ce0f11ceaaec6acdf182478bc6f6481",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-10T08:17:01+00:00"
+    },
+    {
+      "sha256": "93402d10f56c26e55ee4e5ffbe8e675f8423741d44f206225a2a501a24fe69d2",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-05T17:16:21+00:00"
+    },
+    {
+      "sha256": "976c83621fbf5cd7e4bfea9b82da6b2bafcbda5ad344344875077320e6b12970",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-17T00:00:13+00:00"
+    },
+    {
+      "sha256": "989a220f785a4575a72b6c62a7e73bbc62d1881a64308a834e946da96e931bf9",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-19T09:50:20+00:00"
+    },
+    {
+      "sha256": "9bb1bbac9fd063b68a768dd287f4a2186b40d1df80dbac1794f35c6ea9d1aa19",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-01T01:05:25+00:00"
+    },
+    {
+      "sha256": "9f380570bddf7197203a4475c6528a31300a75427b6952f7ecc66ed9266c6e65",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-20T09:53:12+00:00"
+    },
+    {
+      "sha256": "a031a4292612b740995366168a5f09247aab3aafae5bfaaa03f6d8e69a88ba8a",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-12T19:06:34+00:00"
+    },
+    {
+      "sha256": "a9d3fa7bd80f042ffeb3153456d9be45717991db13b52cb80391837191dcf93e",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-03T09:13:46+00:00"
+    },
+    {
+      "sha256": "adb2a1c26b25352a97377ccfc00fdff46dfb33ae019c6ec9cc188ae7f59e310f",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-03T03:47:50+00:00"
+    },
+    {
+      "sha256": "b7c297dee9264ce3f859f144fdd65cb4ad4f9697ad0a03101c1fe3b60fda26a1",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-13T15:54:35+00:00"
+    },
+    {
+      "sha256": "bc0c9aea03ca97a90f87272031d2f5a6445a87cb7421abf4f2767a2038cf478f",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-12T09:34:20+00:00"
+    },
+    {
+      "sha256": "bccdd1bc1e6c4da8a3c2a5055456e92aeac391559516c7efe3899beedbf8b406",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-19T09:46:14+00:00"
+    },
+    {
+      "sha256": "c113d0ccf43648f715170c05bbf2e726298c846aa4b106c2ffc9de87f603e7cf",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-10T15:04:42+00:00"
+    },
+    {
+      "sha256": "c15c88930beba6134241cbc90a0d08906412afa405d6930117413d734f7c5646",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-19T04:06:36+00:00"
+    },
+    {
+      "sha256": "c34be7567e826e86ab349a8c75f7609463a9cfa43302830399c604fef0253431",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-09T09:14:21+00:00"
+    },
+    {
+      "sha256": "c78c435f9efae7dc26c1d98eeb89467e3195954eeeec849c019be8335e56f2e3",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-21T02:15:26+00:00"
+    },
+    {
+      "sha256": "c985356202d68c84fa05cb00f8030345c7180519c212777198354475a6880c64",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-01T09:31:46+00:00"
+    },
+    {
+      "sha256": "ca222cd46305c373c02d14b3de1bee693dbb8000fff7185e8d98065b1093d845",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-07T09:40:13+00:00"
+    },
+    {
+      "sha256": "cbcbfe6176f59de68c5be577f47bd126cf69289d645597be4164f4ac7ac0a447",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-01T09:29:54+00:00"
+    },
+    {
+      "sha256": "d472aeff03f6afd48139360a27a5807b200ba4ddeb18574e70de43ff92359e12",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-07T09:39:54+00:00"
+    },
+    {
+      "sha256": "d49765463fa174eb97cdd549ee91ec78385ac871b2d3373b140759d2859632b6",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-17T09:43:30+00:00"
+    },
+    {
+      "sha256": "d4b1475a9033bc2137a1786356b591c912a060c0cfc539c060894e61850932e8",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-07T04:36:19+00:00"
+    },
+    {
+      "sha256": "d5776b60f36334aa32ce2e41b917618d5d29a4c55334457d3ff6fd721b1630f0",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-13T09:36:24+00:00"
+    },
+    {
+      "sha256": "d7b2dcfe8d14e68efdd3fd8089639958ae98b1847dde508c21be967a22a94236",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-17T09:39:21+00:00"
+    },
+    {
+      "sha256": "dfaf407b8e4acf6196c505cfad7eaecbbf0c849cb9f26d8e8600c729c0122116",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-20T11:15:54+00:00"
+    },
+    {
+      "sha256": "e8b92c84c92df655df83dfa2a7fa08f1eec5373657a5a5f7deb98a5dd766f794",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-15T09:41:44+00:00"
+    },
+    {
+      "sha256": "ebc4aa61c418c5dba0a54bd49c78585cc4b0d15e667d691b2f4f4629f276a46e",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-18T15:59:34+00:00"
+    },
+    {
+      "sha256": "f32430f24044beb6e301c510aad1d9f3afd35afd436aca71760a20a9bfb45cd9",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-20T09:47:22+00:00"
+    },
+    {
+      "sha256": "f66a49bb81a326a306091143a0c61b998188cf0b3d666b3fe71524455147d723",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "IU-RESEARCH - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-03T09:10:00+00:00"
+    },
+    {
+      "sha256": "fd614ef6a0daf33f0aba3e86befe9bb0c6ecde6dab7bc367eb455817f60ea234",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-11-02T09:04:46+00:00"
+    },
+    {
+      "sha256": "feabe7afdbd5db939f44fc11f172d59ebb1aa1fe7c777928ed7d47579246d2e5",
+      "command": 1001,
+      "declared_body_bytes": 226,
+      "connections": 1,
+      "sources": 1,
+      "sensors": 1,
+      "networks": {
+        "INDIANAGIGAPOP - Indiana University, US": 1
+      },
+      "local_time_field_utc": "2026-10-31T09:28:14+00:00"
+    }
+  ],
+  "shared_listener_groups": [
+    {
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "captured_bytes": 1,
+      "connections": 963,
+      "sources": 528,
+      "sensors": 26,
+      "classes": {
+        "other": 963
+      },
+      "networks": {
+        "MODAT-01 - Modat B.V., NL": 316,
+        "unavailable": 26,
+        "NewVM-AS - NewVM B.V., NL": 39,
+        "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US": 540,
+        "LEASEWEB-APAC-SIN-11 - LEASEWEB SINGAPORE PTE. LTD., SG": 38,
+        "EL-US - EASY LINK LLC, US": 1,
+        "PFCLOUD - Pfcloud UG (haftungsbeschrankt), DE": 3
+      },
+      "ports": {
+        "18081": 142,
+        "18080": 701,
+        "18089": 120
+      }
+    },
+    {
+      "sha256": "da075e9d699084fc189cdd233081c49f74df331a5eb414438cb3cfa9f19aedd9",
+      "captured_bytes": 3,
+      "connections": 656,
+      "sources": 336,
+      "sensors": 26,
+      "classes": {
+        "other": 656
+      },
+      "networks": {
+        "DRIFTNET - Driftnet Ltd, GB": 336,
+        "unavailable": 21,
+        "PFCLOUD - Pfcloud UG (haftungsbeschrankt), DE": 157,
+        "MODAT-01 - Modat B.V., NL": 72,
+        "NewVM-AS - NewVM B.V., NL": 9,
+        "RETHEMHOSTING - Rethem Hosting LLC, US": 13,
+        "LEASEWEB-APAC-SIN-11 - LEASEWEB SINGAPORE PTE. LTD., SG": 6,
+        "ROSTELECOM-AS - PJSC Rostelecom, RU": 34,
+        "PLI-AS - Private Layer INC, PA": 1,
+        "DIGITALOCEAN-ASN - DigitalOcean, LLC, US": 4,
+        "HWCLOUDS-AS-AP - HUAWEI CLOUDS, HK": 3
+      },
+      "ports": {
+        "18080": 444,
+        "18081": 179,
+        "18089": 33
+      }
+    },
+    {
+      "sha256": "ad33d13d6bc3bd05c9957f130811a989dc0b75035ec695d3cb29ec3dfc081602",
+      "captured_bytes": 12,
+      "connections": 633,
+      "sources": 501,
+      "sensors": 26,
+      "classes": {
+        "other": 633
+      },
+      "networks": {
+        "AKAMAI-LINODE-AP - Akamai Connected Cloud, SG": 98,
+        "DRIFTNET - Driftnet Ltd, GB": 331,
+        "ALIBABA-CN-NET - Hangzhou Alibaba Advertising Co.,Ltd., CN": 27,
+        "unavailable": 10,
+        "UCLOUD-HK-AS-AP - UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED, HK": 19,
+        "GOOGLE-CLOUD-PLATFORM - Google LLC, US": 143,
+        "CENSYS-ARIN-01 - Censys, Inc., US": 2,
+        "AS-VULTR - The Constant Company, LLC, US": 3
+      },
+      "ports": {
+        "18081": 201,
+        "18080": 394,
+        "18089": 38
+      }
+    },
+    {
+      "sha256": "b9373ea592d67ff8b93af91f8352abc256d7044f58b14d2baa241658aaea53c3",
+      "captured_bytes": 22,
+      "connections": 588,
+      "sources": 136,
+      "sensors": 26,
+      "classes": {
+        "http_request": 588
+      },
+      "networks": {
+        "AKAMAI-LINODE-AP - Akamai Connected Cloud, SG": 117,
+        "ALIBABA-CN-NET - Hangzhou Alibaba Advertising Co.,Ltd., CN": 28,
+        "AS264617 - GRUPO PANAGLOBAL 15 S.A, PA": 193,
+        "BestDC-Limited - BestDC Limited, GB": 146,
+        "AMAZON-02 - Amazon.com, Inc., US": 74,
+        "AMAZON-AES - Amazon.com, Inc., US": 3,
+        "UCLOUD-HK-AS-AP - UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED, HK": 19,
+        "unavailable": 2,
+        "GOOGLE-CLOUD-PLATFORM - Google LLC, US": 3,
+        "AS-VULTR - The Constant Company, LLC, US": 3
+      },
+      "ports": {
+        "18081": 72,
+        "18080": 475,
+        "18089": 41
+      }
+    },
+    {
+      "sha256": "11e629574907d3a9ced402e26f4a98df4419130260a01c718b7e567892e2b129",
+      "captured_bytes": 7,
+      "connections": 502,
+      "sources": 340,
+      "sensors": 26,
+      "classes": {
+        "other": 502
+      },
+      "networks": {
+        "DRIFTNET - Driftnet Ltd, GB": 332,
+        "MODAT-01 - Modat B.V., NL": 74,
+        "unavailable": 8,
+        "NewVM-AS - NewVM B.V., NL": 9,
+        "LEASEWEB-APAC-SIN-11 - LEASEWEB SINGAPORE PTE. LTD., SG": 2,
+        "AKAMAI-LINODE-AP - Akamai Connected Cloud, SG": 58,
+        "UCLOUD-HK-AS-AP - UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED, HK": 19
+      },
+      "ports": {
+        "18080": 332,
+        "18081": 112,
+        "18089": 58
+      }
+    },
+    {
+      "sha256": "dba5166ad9db9ba648c1032ebbd34dcd0d085b50023b839ef5c68ca1db93a563",
+      "captured_bytes": 4,
+      "connections": 476,
+      "sources": 381,
+      "sensors": 26,
+      "classes": {
+        "other": 476
+      },
+      "networks": {
+        "AKAMAI-LINODE-AP - Akamai Connected Cloud, SG": 50,
+        "ALIBABA-CN-NET - Alibaba (US) Technology Co., Ltd., CN": 67,
+        "ALIBABA-CN-NET - Hangzhou Alibaba Advertising Co.,Ltd., CN": 28,
+        "UCLOUD-HK-AS-AP - UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED, HK": 169,
+        "GOOGLE-CLOUD-PLATFORM - Google LLC, US": 143,
+        "unavailable": 11,
+        "CHINANET-SH-AP - China Telecom (Group), CN": 2,
+        "CHINANET-BACKBONE - No.31,Jin-rong Street, CN": 2,
+        "AS-VULTR - The Constant Company, LLC, US": 3,
+        "OVH - OVH SAS, FR": 1
+      },
+      "ports": {
+        "18081": 175,
+        "18080": 231,
+        "18089": 70
+      }
+    },
+    {
+      "sha256": "c7fc4bd4bc65329ae66eeb0073ae405e9fb44fa69a4702f20dc14489c3850e88",
+      "captured_bytes": 19,
+      "connections": 422,
+      "sources": 198,
+      "sensors": 26,
+      "classes": {
+        "other": 422
+      },
+      "networks": {
+        "ALIBABA-CN-NET - Alibaba (US) Technology Co., Ltd., CN": 135,
+        "MODAT-01 - Modat B.V., NL": 144,
+        "unavailable": 11,
+        "NewVM-AS - NewVM B.V., NL": 17,
+        "LEASEWEB-APAC-SIN-11 - LEASEWEB SINGAPORE PTE. LTD., SG": 13,
+        "TECHTIES-AS - TechTies Inc., SC": 1,
+        "Mevspace - MEVSPACE sp. z o.o., PL": 13,
+        "WEBHOSTBD-AS-AP - Web Host BD, BD": 72,
+        "DMZHOST - TECHOFF SRV LIMITED, GB": 13,
+        "ALIBABA-CN-NET - Hangzhou Alibaba Advertising Co.,Ltd., CN": 3
+      },
+      "ports": {
+        "18080": 183,
+        "18089": 132,
+        "18081": 107
+      }
+    },
+    {
+      "sha256": "66e6e95d50f4bc0ff0f58d2e37d660559c2fb6a26742a50de077e2bb555898cd",
+      "captured_bytes": 259,
+      "connections": 416,
+      "sources": 194,
+      "sensors": 26,
+      "classes": {
+        "levin_signature": 416
+      },
+      "networks": {
+        "GOOGLE-CLOUD-PLATFORM - Google LLC, US": 416
+      },
+      "ports": {
+        "18080": 416
+      }
+    },
+    {
+      "sha256": "7e60f53056fbf9420e7c06d6464a6b37fbed149f386af612f77e4ff5a803af08",
+      "captured_bytes": 38,
+      "connections": 407,
+      "sources": 30,
+      "sensors": 26,
+      "classes": {
+        "other": 407
+      },
+      "networks": {
+        "AS264617 - GRUPO PANAGLOBAL 15 S.A, PA": 190,
+        "BestDC-Limited - BestDC Limited, GB": 145,
+        "AMAZON-02 - Amazon.com, Inc., US": 69,
+        "AMAZON-AES - Amazon.com, Inc., US": 3
+      },
+      "ports": {
+        "18080": 407
+      }
+    },
+    {
+      "sha256": "1c72a6bc9b7f32b15ab311610e229bad3494654b6568b0adba5b620722b3adfc",
+      "captured_bytes": 21,
+      "connections": 395,
+      "sources": 33,
+      "sensors": 26,
+      "classes": {
+        "other": 395
+      },
+      "networks": {
+        "AS264617 - GRUPO PANAGLOBAL 15 S.A, PA": 174,
+        "BestDC-Limited - BestDC Limited, GB": 146,
+        "AMAZON-02 - Amazon.com, Inc., US": 67,
+        "AMAZON-AES - Amazon.com, Inc., US": 8
+      },
+      "ports": {
+        "18080": 395
+      }
+    },
+    {
+      "sha256": "f982babed82f89d1be72e2dbfec994c42b55f45d37ede6ea9c84786c38eb1d5c",
+      "captured_bytes": 84,
+      "connections": 385,
+      "sources": 227,
+      "sensors": 26,
+      "classes": {
+        "levin_signature": 385
+      },
+      "networks": {
+        "CENSYS-ARIN-02 - Censys, Inc., US": 96,
+        "CENSYS-ARIN-01 - Censys, Inc., US": 285,
+        "unavailable": 4
+      },
+      "ports": {
+        "18080": 383,
+        "18081": 2
+      }
+    },
+    {
+      "sha256": "0919330898ff50d5f02d0b53801991228d4e7f7588864f46c8d1a814485c3717",
+      "captured_bytes": 43,
+      "connections": 365,
+      "sources": 310,
+      "sensors": 26,
+      "classes": {
+        "levin_signature": 365
+      },
+      "networks": {
+        "BANDWIDTH-AS - Hydra Communications Ltd, GB": 24,
+        "DRIFTNET - Driftnet Ltd, GB": 337,
+        "unavailable": 4
+      },
+      "ports": {
+        "18080": 302,
+        "18081": 63
+      }
+    },
+    {
+      "sha256": "4f9ff4b8ec8624803229b3cea88426afda8d7360c4b859d937928433287182db",
+      "captured_bytes": 14,
+      "connections": 358,
+      "sources": 291,
+      "sensors": 26,
+      "classes": {
+        "other": 358
+      },
+      "networks": {
+        "DRIFTNET - Driftnet Ltd, GB": 335,
+        "UCLOUD-HK-AS-AP - UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED, HK": 19,
+        "unavailable": 4
+      },
+      "ports": {
+        "18080": 286,
+        "18081": 64,
+        "18089": 8
+      }
+    },
+    {
+      "sha256": "c7e753b8dc97d2b69ef2b16aeea82a1ef89d1bbe19ba480221049bdac6aaf3e9",
+      "captured_bytes": 14,
+      "connections": 348,
+      "sources": 278,
+      "sensors": 26,
+      "classes": {
+        "other": 348
+      },
+      "networks": {
+        "DRIFTNET - Driftnet Ltd, GB": 332,
+        "RETHEMHOSTING - Rethem Hosting LLC, US": 13,
+        "unavailable": 3
+      },
+      "ports": {
+        "18080": 286,
+        "18081": 62
+      }
+    },
+    {
+      "sha256": "b103d9fa9f6f709f3daf84bfa62b386eb582ceb3fd40b71d89d7d1ba5145c034",
+      "captured_bytes": 72,
+      "connections": 339,
+      "sources": 272,
+      "sensors": 26,
+      "classes": {
+        "other": 339
+      },
+      "networks": {
+        "DRIFTNET - Driftnet Ltd, GB": 338,
+        "unavailable": 1
+      },
+      "ports": {
+        "18080": 276,
+        "18081": 63
+      }
+    },
+    {
+      "sha256": "04bb535988b111c42fa8d956c9af3ed3f6f268519341a6c8fe1f06d0ddf3bae1",
+      "captured_bytes": 44,
+      "connections": 338,
+      "sources": 274,
+      "sensors": 26,
+      "classes": {
+        "other": 338
+      },
+      "networks": {
+        "DRIFTNET - Driftnet Ltd, GB": 337,
+        "unavailable": 1
+      },
+      "ports": {
+        "18080": 276,
+        "18081": 62
+      }
+    },
+    {
+      "sha256": "22efd140cf33afa66c67e67963ca0a784b4855db2ff4e30d6e30f5cd63f704d1",
+      "captured_bytes": 31,
+      "connections": 338,
+      "sources": 277,
+      "sensors": 26,
+      "classes": {
+        "http_request": 338
+      },
+      "networks": {
+        "DRIFTNET - Driftnet Ltd, GB": 334,
+        "unavailable": 4
+      },
+      "ports": {
+        "18080": 276,
+        "18081": 62
+      }
+    },
+    {
+      "sha256": "b9f1f33d492dc809e1d8e8d4db27cb2faa683f9f14704aa31dea94d9c2ca1fb3",
+      "captured_bytes": 156,
+      "connections": 338,
+      "sources": 281,
+      "sensors": 26,
+      "classes": {
+        "other": 338
+      },
+      "networks": {
+        "DRIFTNET - Driftnet Ltd, GB": 336,
+        "unavailable": 2
+      },
+      "ports": {
+        "18080": 276,
+        "18081": 62
+      }
+    },
+    {
+      "sha256": "4327d3afce06e3fa374f45ceb841d9eaa138528a4e8376782d7e81ce04b75b56",
+      "captured_bytes": 9,
+      "connections": 338,
+      "sources": 274,
+      "sensors": 26,
+      "classes": {
+        "other": 338
+      },
+      "networks": {
+        "DRIFTNET - Driftnet Ltd, GB": 336,
+        "unavailable": 2
+      },
+      "ports": {
+        "18080": 276,
+        "18081": 62
+      }
+    },
+    {
+      "sha256": "0fedad600ef6ff191efc9f3b66a4e248f12737330b6ab7fd8b61577434b9b246",
+      "captured_bytes": 53,
+      "connections": 338,
+      "sources": 271,
+      "sensors": 26,
+      "classes": {
+        "other": 338
+      },
+      "networks": {
+        "DRIFTNET - Driftnet Ltd, GB": 336,
+        "unavailable": 2
+      },
+      "ports": {
+        "18080": 276,
+        "18081": 62
+      }
+    }
+  ]
+}

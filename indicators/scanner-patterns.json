@@ -1,0 +1,234 @@
+{
+  "groups": {
+    "Palo Alto": {
+      "streams": 585,
+      "sources": 421,
+      "sensors": 25,
+      "first": "2026-10-30T23:28:25.797490+00:00",
+      "last": "2026-11-21T09:39:57.332932+00:00",
+      "networks": {
+        "GOOGLE-CLOUD-PLATFORM - Google LLC, US": 582,
+        "unavailable": 3
+      },
+      "ambiguous_streams": 0
+    },
+    "Modat": {
+      "streams": 180,
+      "sources": 67,
+      "sensors": 24,
+      "first": "2026-10-31T01:59:29.530257+00:00",
+      "last": "2026-11-21T16:00:27.500791+00:00",
+      "networks": {
+        "MODAT-01 - Modat B.V., NL": 149,
+        "LEASEWEB-APAC-SIN-11 - LEASEWEB SINGAPORE PTE. LTD., SG": 12,
+        "unavailable": 7,
+        "NewVM-AS - NewVM B.V., NL": 12
+      },
+      "ambiguous_streams": 0
+    },
+    "Infrawatch": {
+      "streams": 571,
+      "sources": 515,
+      "sensors": 25,
+      "first": "2026-10-30T23:29:17.794298+00:00",
+      "last": "2026-11-21T15:56:34.157967+00:00",
+      "networks": {
+        "BANDWIDTH-AS - Hydra Communications Ltd, GB": 531,
+        "GTT-BACKBONE - GTT Communications Inc., US": 27,
+        "unavailable": 13
+      },
+      "ambiguous_streams": 0
+    },
+    "zgrab": {
+      "streams": 2478,
+      "sources": 75,
+      "sensors": 25,
+      "first": "2026-10-30T22:44:01.658233+00:00",
+      "last": "2026-11-21T15:58:58.739130+00:00",
+      "networks": {
+        "PFCLOUD - Pfcloud UG (haftungsbeschrankt), DE": 154,
+        "DIGITALOCEAN-ASN - DigitalOcean, LLC, US": 61,
+        "unavailable": 642,
+        "AKAMAI-LINODE-AP - Akamai Connected Cloud, SG": 1621
+      },
+      "ambiguous_streams": 119
+    },
+    "InternetMeasurement": {
+      "streams": 332,
+      "sources": 265,
+      "sensors": 25,
+      "first": "2026-10-30T22:51:47.337778+00:00",
+      "last": "2026-11-21T15:05:45.130110+00:00",
+      "networks": {
+        "DRIFTNET - Driftnet Ltd, GB": 328,
+        "unavailable": 4
+      },
+      "ambiguous_streams": 0
+    },
+    "Apcosys": {
+      "streams": 231,
+      "sources": 31,
+      "sensors": 25,
+      "first": "2026-11-01T21:12:49.263536+00:00",
+      "last": "2026-11-17T08:18:05.910357+00:00",
+      "networks": {
+        "BestDC-Limited - BestDC Limited, GB": 149,
+        "AMAZON-02 - Amazon.com, Inc., US": 76,
+        "AMAZON-AES - Amazon.com, Inc., US": 6
+      },
+      "ambiguous_streams": 0
+    },
+    "agcp": {
+      "streams": 61,
+      "sources": 1,
+      "sensors": 16,
+      "first": "2026-11-02T16:13:05.404435+00:00",
+      "last": "2026-11-03T06:04:40.531461+00:00",
+      "networks": {
+        "AS56971 - CGI GLOBAL LIMITED, HK": 61
+      },
+      "ambiguous_streams": 0
+    },
+    "zern": {
+      "streams": 70,
+      "sources": 3,
+      "sensors": 15,
+      "first": "2026-11-03T03:33:02.147594+00:00",
+      "last": "2026-11-11T07:15:02.455296+00:00",
+      "networks": {
+        "DIGITALOCEAN-ASN - DigitalOcean, LLC, US": 70
+      },
+      "ambiguous_streams": 0
+    },
+    "frozen Levin": {
+      "streams": 412,
+      "sources": 190,
+      "sensors": 25,
+      "first": "2026-11-02T16:14:37.835952+00:00",
+      "last": "2026-11-21T12:45:49.869286+00:00",
+      "networks": {
+        "GOOGLE-CLOUD-PLATFORM - Google LLC, US": 403,
+        "unavailable": 9
+      },
+      "ambiguous_streams": 0
+    },
+    "get_info": {
+      "streams": 278,
+      "sources": 113,
+      "sensors": 25,
+      "first": "2026-10-31T12:56:24.554556+00:00",
+      "last": "2026-11-21T13:50:04.259781+00:00",
+      "networks": {
+        "BlackHOST - Black HOST Ltd, CA": 9,
+        "UCLOUD-HK-AS-AP - UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED, HK": 48,
+        "TAMATIYA-AS - Tamatiya EOOD, BG": 58,
+        "CHINA169-Backbone - CHINA UNICOM China169 Backbone, CN": 8,
+        "ROUTERHOSTING - RouterHosting LLC, US": 42,
+        "CARINET - CariNet, Inc., US": 18,
+        "COGENT-174 - Cogent Communications, LLC, US": 7,
+        "CHINANET-IDC-BJ-AP - IDC, China Telecommunications Corporation, CN": 5,
+        "AS-VULTR - The Constant Company, LLC, US": 2,
+        "FlokiNET - FlokiNET ehf, IS": 6,
+        "CHINANET-BACKBONE - No.31,Jin-rong Street, CN": 4,
+        "RETHEMHOSTING - Rethem Hosting LLC, US": 14,
+        "INT-NETWORK - IP Volume inc, SC": 30,
+        "unavailable": 3,
+        "DIGITALOCEAN-ASN - DigitalOcean, LLC, US": 20,
+        "CNCGROUP-GZ - China Unicom Guangzhou network, CN": 1,
+        "ASN-CBNBroadband - PT. Cyberindo Aditama, ID": 2,
+        "CHINATELECOM-HUBEI-WUHAN-5G-NETWORK - CHINATELECOM Hubei province Wuhan 5G network, CN": 1
+      },
+      "ambiguous_streams": 0
+    },
+    "cryptohunt": {
+      "streams": 58,
+      "sources": 1,
+      "sensors": 20,
+      "first": "2026-11-08T03:50:46.827171+00:00",
+      "last": "2026-11-10T20:21:33.862763+00:00",
+      "networks": {
+        "TAMATIYA-AS - Tamatiya EOOD, BG": 58
+      },
+      "ambiguous_streams": 0
+    },
+    "Nmap GetRequest": {
+      "streams": 136,
+      "sources": 116,
+      "sensors": 25,
+      "first": "2026-10-31T02:21:09.525654+00:00",
+      "last": "2026-11-21T14:14:43.388697+00:00",
+      "networks": {
+        "GOOGLE-CLOUD-PLATFORM - Google LLC, US": 68,
+        "AKAMAI-LINODE-AP - Akamai Connected Cloud, SG": 38,
+        "UCLOUD-HK-AS-AP - UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED, HK": 19,
+        "unavailable": 8,
+        "AS-VULTR - The Constant Company, LLC, US": 3
+      },
+      "ambiguous_streams": 0
+    },
+    "LZR Oracle": {
+      "streams": 2151,
+      "sources": 36,
+      "sensors": 23,
+      "first": "2026-10-31T03:51:54.148239+00:00",
+      "last": "2026-11-21T16:00:43.840265+00:00",
+      "networks": {
+        "unavailable": 612,
+        "AKAMAI-LINODE-AP - Akamai Connected Cloud, SG": 1539
+      },
+      "ambiguous_streams": 860
+    },
+    "LZR MQTT": {
+      "streams": 2069,
+      "sources": 36,
+      "sensors": 23,
+      "first": "2026-10-31T04:03:42.829570+00:00",
+      "last": "2026-11-21T16:01:37.466764+00:00",
+      "networks": {
+        "AKAMAI-LINODE-AP - Akamai Connected Cloud, SG": 1500,
+        "unavailable": 569
+      },
+      "ambiguous_streams": 831
+    },
+    "get_version": {
+      "streams": 32,
+      "sources": 6,
+      "sensors": 16,
+      "first": "2026-11-01T12:52:52.382361+00:00",
+      "last": "2026-11-21T11:11:36.124263+00:00",
+      "networks": {
+        "VIRTUO - 12651980 CANADA INC., CA": 4,
+        "TZULO - tzulo, inc., US": 19,
+        "FlokiNET - FlokiNET ehf, IS": 2,
+        "CONTABO - Contabo GmbH, DE": 4,
+        "ICENET-AS1 - Mila hf, IS": 3
+      },
+      "ambiguous_streams": 0
+    },
+    "get_balance": {
+      "streams": 18,
+      "sources": 4,
+      "sensors": 7,
+      "first": "2026-11-04T06:20:33.977648+00:00",
+      "last": "2026-11-16T19:16:10.971966+00:00",
+      "networks": {
+        "CDNEXT - Datacamp Limited, GB": 3,
+        "FlokiNET - FlokiNET ehf, IS": 6,
+        "ESAB-AS - 31173 Services AB, SE": 8,
+        "CONTABO - Contabo GmbH, DE": 1
+      },
+      "ambiguous_streams": 0
+    }
+  },
+  "source_overlaps": {
+    "Palo Alto / frozen Levin": 60,
+    "get_info / get_version": 1,
+    "cryptohunt / get_info": 1,
+    "Nmap GetRequest / Palo Alto": 3,
+    "LZR Oracle / zgrab": 36,
+    "LZR MQTT / zgrab": 36,
+    "LZR MQTT / LZR Oracle": 36,
+    "get_balance / get_info": 1,
+    "get_balance / get_version": 1
+  }
+}
