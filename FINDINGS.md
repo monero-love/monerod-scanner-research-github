@@ -19,4 +19,4 @@ During the same window, 623 of 1,673 source addresses also appeared in logs for 
 
 ## Subsequent synthetic wallet pilot
 
-A separate six-sensor pilot started on November 21 at 16:58 UTC. At the November 22 cutoff of 02:20:07.955044 UTC, the collector held 112 records, including 48 marked validation exchanges and 64 unmarked connections. No unmarked connection produced a parsed wallet RPC call or a recorded emulator reply. Sensors entered the pilot at different times, which limits comparisons across the cohort.
+Updated through 2026-11-23 02:33:08.689261 UTC, exclusive: 380 cumulative records, 72 marked validation exchanges excluded, and 308 unmarked connections. The nine-sensor experiment recorded 5 unmarked `get_info` requests with method-not-found response buffers. No unmarked balance, address, account, key or spending requests were observed. Cohorts activated at different times. See the [daily report](reports/daily-2026-11-23.md).

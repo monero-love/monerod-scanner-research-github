@@ -1,7 +1,8 @@
 # Monerod scanner research
 
-This repository contains a sanitized snapshot of passive IPv4 TCP research on Monero-associated ports 18080, 18081 and 18089.
+This repository contains sanitized findings from passive IPv4 TCP research on Monero-associated ports 18080, 18081 and 18089, and a subsequent synthetic-wallet experiment.
 
+- [Daily aggregate findings, November 23](reports/daily-2026-11-23.md)
 - [Study windows and aggregate findings](FINDINGS.md)
 - [Detailed findings through November 21, 2026](REPORT.md)
 - [Observed scanner patterns and overlaps](indicators/scanner-patterns.json)

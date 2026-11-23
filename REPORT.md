@@ -160,3 +160,7 @@ The archive reports zero partial files and zero snap-length-truncated packets. T
 ## Cross-service limits
 
 The cross-service correlation query timed out for the new interval. Updated overlap with other honeypot services is unavailable.
+
+## Later interactive experiment
+
+The separate [daily aggregate report for November 23](reports/daily-2026-11-23.md) updates the synthetic-wallet experiment. It does not extend this passive packet-study cutoff.
