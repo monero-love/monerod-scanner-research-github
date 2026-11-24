@@ -19,4 +19,4 @@ During the same window, 623 of 1,673 source addresses also appeared in logs for 
 
 ## Subsequent synthetic wallet pilot
 
-Updated through 2026-11-23 02:33:08.689261 UTC, exclusive: 380 cumulative records, 72 marked validation exchanges excluded, and 308 unmarked connections. The nine-sensor experiment recorded 5 unmarked `get_info` requests with method-not-found response buffers. No unmarked balance, address, account, key or spending requests were observed. Cohorts activated at different times. See the [daily report](reports/daily-2026-11-23.md).
+Updated through 2026-11-24 02:33:07.359114 UTC, exclusive: 1013 cumulative records, 96 marked validation exchanges excluded, and 917 unmarked connections. The twelve-sensor experiment recorded 10 unmarked `get_info` requests with method-not-found response buffers. No unmarked balance, address, account, key or spending requests were observed. Cohorts activated at different times. See the [daily report](reports/daily-2026-11-24.md).
