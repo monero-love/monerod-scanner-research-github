@@ -163,4 +163,4 @@ The cross-service correlation query timed out for the new interval. Updated over
 
 ## Later interactive experiment
 
-The separate [daily aggregate report for November 24](reports/daily-2026-11-24.md) updates the synthetic-wallet experiment. It does not extend this passive packet-study cutoff.
+The separate [daily aggregate report for November 25](reports/daily-2026-11-25.md) updates the synthetic-wallet experiment. It does not extend this passive packet-study cutoff.

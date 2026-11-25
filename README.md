@@ -4,6 +4,7 @@ This repository contains sanitized findings from passive IPv4 TCP research on Mo
 
 - [Daily aggregate findings, November 23](reports/daily-2026-11-23.md)
 - [Daily aggregate findings, November 24](reports/daily-2026-11-24.md)
+- [Daily aggregate findings, November 25](reports/daily-2026-11-25.md)
 - [Study windows and aggregate findings](FINDINGS.md)
 - [Detailed findings through November 21, 2026](REPORT.md)
 - [Observed scanner patterns and overlaps](indicators/scanner-patterns.json)
